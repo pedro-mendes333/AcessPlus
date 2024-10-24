@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revenda de Logins de Streaming</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(to right, #007BFF, #0056b3);
+            color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .plans {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .plan {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            padding: 20px;
+            width: 30%;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .plan:hover {
+            transform: scale(1.05);
+        }
+        .plan h2 {
+            color: #007BFF;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .plan p.price {
+            font-size: 32px;
+            font-weight: bold;
+            color: #0056b3;
+        }
+        .plan p.logins {
+            font-size: 18px;
+            color: #666;
+        }
+        .plan ul {
+            list-style-type: none;
+            padding: 0;
+            color: #555;
+        }
+        .plan button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        .plan button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+        .app-section {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .app-section img {
+            width: 300px; /* Ajuste o tamanho da imagem conforme necessário */
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Revenda Logins de Streaming</h1>
+    <h2>Escolha o plano que melhor se adapta a você!</h2>
+</header>
+
+<div class="plans">
+    <div class="plan">
+        <h2>Plano Básico</h2>
+        <p class="price">R$ 39,90 <span style="font-size: 16px;">Mensal</span></p>
+        <p class="logins">200 Logins</p>
+        <ul>
+            <li>Acesso simultâneo: mobile, mac ou windows</li>
+            <li>Suporte básico</li>
+            <li>Atualizações mensais</li>
+        </ul>
+        <a href="https://wa.me/5516997840975?text=Olá!%20Estou%20interessado%20no%20Plano%20Básico%20de%20200%20logins.%20Poderia%20me%20fornecer%20mais%20informações?" target="_blank">
+            <button>Comece Agora</button>
+        </a>
+    </div>
+    <div class="plan">
+        <h2>Plano Intermediário</h2>
+        <p class="price">R$ 59,90 <span style="font-size: 16px;">Mensal</span></p>
+        <p class="logins">500 Logins</p>
+        <ul>
+            <li>Acesso simultâneo: mobile, mac ou windows</li>
+            <li>Suporte prioritário</li>
+            <li>Atualizações mensais</li>
+        </ul>
+        <a href="https://wa.me/5516997840975?text=Olá!%20Estou%20interessado%20no%20Plano%20Intermediário%20de%20500%20logins.%20Poderia%20me%20fornecer%20mais%20informações?" target="_blank">
+            <button>Comece Agora</button>
+        </a>
+    </div>
+    <div class="plan">
+        <h2>Plano Avançado</h2>
+        <p class="price">R$ 79,90 <span style="font-size: 16px;">Mensal</span></p>
+        <p class="logins">700 Logins</p>
+        <ul>
+            <li>Acesso simultâneo: mobile, mac ou windows</li>
+            <li>Suporte VIP</li>
+            <li>Atualizações mensais</li>
+        </ul>
+        <a href="https://wa.me/5516997840975?text=Olá!%20Estou%20interessado%20no%20Plano%20Avançado%20de%20700%20logins.%20Poderia%20me%20fornecer%20mais%20informações?" target="_blank">
+            <button>Comece Agora</button>
+        </a>
+    </div>
+</div>
+
+<section class="app-section">
+    <h2>Controle seus Clientes com Nosso Aplicativo!</h2>
+    <p>Receba um aplicativo exclusivo para gerenciar seus clientes e logins com facilidade.</p>
+    <img src="https://res.cloudinary.com/dnreffwne/image/upload/v1729786263/DALL_E_2024-10-24_10.10.10_-_A_modern_smartphone_with_a_vibrant_display_showing_a_grid_of_popular_streaming_service_logos_like_Netflix_Disney_HBO_Max_Spotify_Amazon_Prime_an_x5g4hi.webp" alt="Aplicativo de Controle">
+</section>
+
+<footer>
+    <p>© 2024 Sua Empresa - Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
